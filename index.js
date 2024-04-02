@@ -12,7 +12,7 @@ const app= express();
 app.use(morgan("common",{
 }));
 
-app.use(cors());
+app.use(cors());       
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
